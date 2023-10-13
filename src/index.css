@@ -7,7 +7,90 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+li{
+  list-style-type: none;
+}
+
+ul{
+  padding: 0 !important;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+body{
+  background: #0E1F31;
+}
+
+.tenzies--board{
+  background: #F5F3F5;
+  padding: 30px;
+  border-radius: 20px;
+  margin: 50px;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1{
+  font-size: 50px;
+}
+
+.top--text{
+  text-align: center;
+}
+
+.top--text > .header{
+  font-weight: 800;
+  margin-top: 0px;
+}
+
+.top--text > .description{
+  font-weight: 300;
+  font-size: 22px;
+  max-width: 420px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -10px;
+}
+
+.board{
+  margin: 20px;
+}
+
+.tenzies--elem{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+
+.tenzies--elem > .number{
+  flex: 1 0 80px;
+  margin: 10px;
+  background: white;
+  box-shadow: 10px 10px 10px 1px #eee;
+  width: 80px;
+  height: 80px;
+  padding: 20px;
+  font-size: 50px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 80px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.reset--button{
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  background: #f49d33;
+  color: white;
+  border: none;
+  width: 200px;
+  font-size: 25px;
+  cursor: pointer;
 }
